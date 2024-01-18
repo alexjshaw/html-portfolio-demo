@@ -151,7 +151,7 @@ nav .nav-links a.active {
 }
 
 .recent-projects .project .project-details p {
-  width: 900px;
+  max-width: 900px;
 }
 
 .recent-posts {
@@ -200,4 +200,32 @@ nav .nav-links a.active {
 
 .recent-posts .posts .single-post h4 {
   font-weight: 400;
+}
+
+footer{
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .social-links{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+footer .social-links i{
+  font-size: 40px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+footer .social-links i:hover{
+  color: darkblue;
+}
+
+footer p{
+  font-size: 12px;
 }

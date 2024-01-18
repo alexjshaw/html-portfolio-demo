@@ -97,3 +97,51 @@ nav .nav-links a.active {
   height: 400px;
   border-radius: 150px;
 }
+
+.recent-posts {
+  padding: 50px 150px;
+  background-color: rgb(216, 213, 207);
+}
+
+.recent-posts .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.recent-posts .header h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.recent-posts .header a {
+  color: rgb(9, 9, 230);
+}
+
+.recent-posts .posts {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.recent-posts .single-post {
+  background-color: white;
+  padding: 20px;
+  width: 400px;
+}
+
+.recent-posts .posts .single-post h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.recent-posts .posts .single-post .post-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.recent-posts .posts .single-post h4 {
+  font-weight: 400;
+}

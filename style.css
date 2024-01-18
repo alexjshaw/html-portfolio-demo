@@ -128,7 +128,7 @@ nav .nav-links a.active {
 .recent-projects .project img,
 .all-projects .project img {
   width: 420px;
-  height: 300px;
+  height: 100%;
 }
 
 .recent-projects .project h3,
@@ -157,7 +157,8 @@ nav .nav-links a.active {
   font-weight: bold;
 }
 
-.recent-projects .project .project-details p {
+.recent-projects .project .project-details p,
+.all-projects .project .project-details p {
   max-width: 700px;
 }
 
@@ -259,7 +260,7 @@ footer p {
 }
 
 .page-content p {
-  width: 980px;
+  width: 800px;
   margin: 20px;
 }
 
@@ -301,4 +302,35 @@ footer p {
 .content .container .about .phone {
   font-weight: bold;
   font-size: 14px;
+}
+
+@media screen and (max-width: 1400px) {
+  .all-projects .project .project-details p {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .recent-projects .project img,
+  .all-projects .project img {
+    width: 320px;
+    height: 100%;
+  }
+
+  .recent-posts .posts {
+    flex-direction: column;
+  }
+
+  .recent-posts .single-post {
+    width: 100%;
+  }
+
+  .main {
+    padding: 0 100px;
+  }
+
+  .recent-projects,
+  .posts {
+    padding: 50px 100px
+  }
 }

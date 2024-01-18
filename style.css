@@ -242,7 +242,8 @@ footer p {
   width: 100%;
 }
 
-.page-content {
+.page-content,
+.content {
   padding: 20px 160px 40px;
   display: flex;
   flex-direction: column;
@@ -265,4 +266,39 @@ footer p {
 .page-content img {
   width: 900px;
   margin: 20px;
+}
+
+.content .container {
+  background-color: #dbedf2;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: 970px;
+  border-radius: 20px;
+}
+
+.content .container img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.content .container h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.content .container .about>p {
+  text-align: justify;
+}
+
+.content .container .about .contact {
+  margin-top: 30px;
+}
+
+.content .container .about .email,
+.content .container .about .phone {
+  font-weight: bold;
+  font-size: 14px;
 }

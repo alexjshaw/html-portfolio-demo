@@ -147,7 +147,8 @@ nav .nav-links a.active {
 }
 
 .recent-projects .project .project-header .year,
-.all-projects .project .project-header .year {
+.all-projects .project .project-header .year,
+.page-content .single-project-header .year {
   background-color: rgb(9, 9, 230);
   padding: 2px 14px;
   color: #fff;
@@ -157,7 +158,7 @@ nav .nav-links a.active {
 }
 
 .recent-projects .project .project-details p {
-  max-width: 900px;
+  max-width: 700px;
 }
 
 .recent-posts {
@@ -246,4 +247,22 @@ footer p {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.page-content .single-project-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  width: 980px;
+}
+
+.page-content p {
+  width: 980px;
+  margin: 20px;
+}
+
+.page-content img {
+  width: 900px;
+  margin: 20px;
 }
